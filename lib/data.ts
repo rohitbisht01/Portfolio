@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import covidImg from "@/public/covid.png"
 import spotifyClone from "@/public/spotify.png"
 import TurboClothing from "@/public/turbo.png"
+import SketchBook from "@/public/Sketchbook.png"
 
 export const links = [
     {
@@ -50,17 +51,18 @@ export const experiencesData = [
         icon: React.createElement(FaReact),
         date: "Dec, 2022 - Present",
     },
-    // {
-    //     title: "Full-Stack Developer",
-    //     location: "Houston, TX",
-    //     description:
-    //         "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB.",
-    //     icon: React.createElement(FaReact),
-    //     date: "2021 - present",
-    // },
+
 ] as const;
 
 export const projectsData = [
+    {
+        title: "Sketchbook",
+        description:
+            "Sketchbook is a drawing application. Draw on one screen, and your art instantly appears on the other screen.",
+        tags: ["ReactJs", "Next.js", "Canvas", "Socket.io"],
+        imageUrl: SketchBook,
+        link: "https://sketchbook-ets6ff5xp-rohitbisht01.vercel.app/"
+    },
     {
         title: "Music Streaming App",
         description:
@@ -91,7 +93,7 @@ export const skillsData = [
     "HTML",
     "CSS",
     "JavaScript",
-    "TypeScript",
+    // "TypeScript",
     "React",
     "Next.js",
     "Node.js",
@@ -101,7 +103,8 @@ export const skillsData = [
     "MongoDB",
     "Redux",
     "Express",
-    // "PostgreSQL",
+    "PostgreSQL",
+    "Prisma",
     // "Framer Motion",
     // "Supabase"
 ] as const;
