@@ -58,7 +58,7 @@ export const projectsData = [
   {
     title: "Todo Manager",
     description:
-      "Sketchbook is a drawing application. Draw on one screen, and your art instantly appears on the other screen.",
+      "Dive into productivity with my Todo Manager application. Create, delete, and track the status of your tasks seamlessly. Stay organized and on top of your to-do list effortlessly.",
     tags: ["Next.js", "MongoDB"],
     imageUrl: Todo,
     link: "https://todo-next-tau-nine.vercel.app/",
