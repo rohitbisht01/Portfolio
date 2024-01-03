@@ -7,6 +7,7 @@ import spotifyClone from "@/public/spotify.png";
 import TurboClothing from "@/public/turbo.png";
 import SketchBook from "@/public/Sketchbook.png";
 import Todo from "@/public/Todo.png";
+import Devflow from "@/public/Devflow.png";
 
 export const links = [
   {
@@ -55,13 +56,21 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  // {
+  //   title: "Todo Manager",
+  //   description:
+  //     "Dive into productivity with my Todo Manager application. Create, delete, and track the status of your tasks seamlessly. Stay organized and on top of your to-do list effortlessly.",
+  //   tags: ["Next.js", "MongoDB"],
+  //   imageUrl: Todo,
+  //   link: "https://todo-next-tau-nine.vercel.app/",
+  // },
   {
-    title: "Todo Manager",
+    title: "Dev Overflow",
     description:
-      "Dive into productivity with my Todo Manager application. Create, delete, and track the status of your tasks seamlessly. Stay organized and on top of your to-do list effortlessly.",
-    tags: ["Next.js", "MongoDB"],
-    imageUrl: Todo,
-    link: "https://todo-next-tau-nine.vercel.app/",
+      "Collaborative platform for developers to ask/answer questions, build tech community, explore job opportunities.",
+    tags: ["Next.js", "TypeScript", "Clerk", "Shadcn", "MongoDB"],
+    imageUrl: Devflow,
+    link: "https://dev-overflow-bice.vercel.app/",
   },
   {
     title: "Sketchbook",
