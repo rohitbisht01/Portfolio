@@ -68,7 +68,7 @@ export const projectsData = [
     title: "Dev Overflow",
     description:
       "Collaborative platform for developers to ask/answer questions, build tech community, explore job opportunities.",
-    tags: ["Next.js", "TypeScript", "Clerk", "Shadcn", "MongoDB"],
+    tags: ["Next.js", "TypeScript", "Clerk", "Shadcn", "MongoDB", "OpenAI"],
     imageUrl: Devflow,
     link: "https://dev-overflow-bice.vercel.app/",
   },
