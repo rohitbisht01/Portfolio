@@ -8,6 +8,7 @@ import TurboClothing from "@/public/turbo.png";
 import SketchBook from "@/public/Sketchbook.png";
 import Todo from "@/public/Todo.png";
 import Devflow from "@/public/Devflow.png";
+import NetflixGPT from "@/public/Netflix.png";
 
 export const links = [
   {
@@ -71,6 +72,14 @@ export const projectsData = [
     tags: ["Next.js", "TypeScript", "Clerk", "Shadcn", "MongoDB", "OpenAI"],
     imageUrl: Devflow,
     link: "https://dev-overflow-bice.vercel.app/",
+  },
+  {
+    title: "Netflix GPT",
+    description:
+      "NetflixGPT is a React application integrating AI-generated movie recommendations with user-friendly features for seamless browsing.",
+    tags: ["React", "RTK", "Firebase", "TailwindCSS", "OpenAI"],
+    imageUrl: NetflixGPT,
+    link: "https://netflix-gpt-d8a76.web.app/",
   },
   {
     title: "Sketchbook",
