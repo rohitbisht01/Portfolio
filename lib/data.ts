@@ -8,7 +8,7 @@ import TurboClothing from "@/public/turbo.png";
 import SketchBook from "@/public/Sketchbook.png";
 import Todo from "@/public/Todo.png";
 import Devflow from "@/public/Devflow.png";
-import NetflixGPT from "@/public/Netflix.png";
+import QuickBuy from "@/public/QuickBuy.png";
 
 export const links = [
   {
@@ -66,20 +66,20 @@ export const projectsData = [
   //   link: "https://todo-next-tau-nine.vercel.app/",
   // },
   {
+    title: "QuickBuy",
+    description:
+      "Application with seamless authentication, user-friendly cart, PayPal integration for secure payments, and role-based access control for efficient shopping.",
+    tags: ["React", "RTK Query", "NodeJs", "Express", "MongoDB"],
+    imageUrl: QuickBuy,
+    link: "https://github.com/rohitbisht01/QuickBuy",
+  },
+  {
     title: "Dev Overflow",
     description:
       "Collaborative platform for developers to ask/answer questions, build tech community, explore job opportunities.",
     tags: ["Next.js", "TypeScript", "Clerk", "Shadcn", "MongoDB", "OpenAI"],
     imageUrl: Devflow,
     link: "https://dev-overflow-bice.vercel.app/",
-  },
-  {
-    title: "Netflix GPT",
-    description:
-      "NetflixGPT is a React application integrating AI-generated movie recommendations with user-friendly features for seamless browsing.",
-    tags: ["React", "RTK", "Firebase", "TailwindCSS", "OpenAI"],
-    imageUrl: NetflixGPT,
-    link: "https://netflix-gpt-d8a76.web.app/",
   },
   {
     title: "Sketchbook",
@@ -89,21 +89,21 @@ export const projectsData = [
     imageUrl: SketchBook,
     link: "https://sketchbook-ets6ff5xp-rohitbisht01.vercel.app/",
   },
-  {
-    title: "Music Streaming App",
-    description:
-      "Explore an all-in-one music streaming app that replicates Spotify's features, plus the unique ability to include your personal music collection.",
-    tags: [
-      "ReactJs",
-      "Next.js",
-      "TypeScript",
-      "Tailwind",
-      "Prisma",
-      "Supabase",
-    ],
-    imageUrl: spotifyClone,
-    link: "https://spotify-clone-psi-five.vercel.app/",
-  },
+  // {
+  //   title: "Music Streaming App",
+  //   description:
+  //     "Explore an all-in-one music streaming app that replicates Spotify's features, plus the unique ability to include your personal music collection.",
+  //   tags: [
+  //     "ReactJs",
+  //     "Next.js",
+  //     "TypeScript",
+  //     "Tailwind",
+  //     "Prisma",
+  //     "Supabase",
+  //   ],
+  //   imageUrl: spotifyClone,
+  //   link: "https://spotify-clone-psi-five.vercel.app/",
+  // },
   {
     title: "Turbo Clothing",
     description:
@@ -126,18 +126,18 @@ export const skillsData = [
   "HTML",
   "CSS",
   "JavaScript",
-  // "TypeScript",
   "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  // "Prisma",
-  "MongoDB",
   "Redux",
+  "Next.js",
+  "TypeScript",
+  "Git",
+  "Node.js",
+  // "Prisma",
   "Express",
-  "PostgreSQL",
-  "Prisma",
+  "MongoDB",
+  "Tailwind",
+  // "PostgreSQL",
+  // "Prisma",
   // "Framer Motion",
   // "Supabase"
 ] as const;

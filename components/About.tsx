@@ -32,10 +32,10 @@ export default function About() {
         my primary stack including{" "}
         <span className="font-medium">
           {" "}
-          React, Next.js, Node.js, and MongoDB
+          React, Express, Node.js, and MongoDB
         </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
+        . I am also familiar with TypeScript. I am always looking to learn new
+        technologies. I am currently looking for a{" "}
         <span className="font-medium">full-time position</span> as a software
         developer.
       </p>
