@@ -65,14 +65,14 @@ export const projectsData = [
   //   imageUrl: Todo,
   //   link: "https://todo-next-tau-nine.vercel.app/",
   // },
-  {
-    title: "QuickBuy",
-    description:
-      "Application with seamless authentication, user-friendly cart, PayPal integration for secure payments, and role-based access control for efficient shopping.",
-    tags: ["React", "RTK Query", "NodeJs", "Express", "MongoDB"],
-    imageUrl: QuickBuy,
-    link: "https://github.com/rohitbisht01/QuickBuy",
-  },
+  //{
+  //  title: "QuickBuy",
+  //  description:
+  //    "Application with seamless authentication, user-friendly cart, PayPal integration for secure payments, and role-based access control for efficient shopping.",
+  //  tags: ["React", "RTK Query", "NodeJs", "Express", "MongoDB"],
+  //  imageUrl: QuickBuy,
+  //  link: "https://github.com/rohitbisht01/QuickBuy",
+  // },
   {
     title: "Dev Overflow",
     description:
@@ -130,12 +130,11 @@ export const skillsData = [
   "Redux",
   "Next.js",
   "TypeScript",
-  "Git",
   "Node.js",
-  // "Prisma",
   "Express",
   "MongoDB",
-  "Tailwind",
+  "Tailwind CSS",
+  "Docker",
   // "PostgreSQL",
   // "Prisma",
   // "Framer Motion",
